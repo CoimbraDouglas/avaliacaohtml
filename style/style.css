@@ -147,12 +147,21 @@ body {
     }
   
     .welcome,
-    .features,
-    .about,
-    .contact {
-      text-align: center;
-    }
+  .features,
+  .about,
+  .contact {
+    text-align: center;
   }
+
+  .grid {
+    grid-template-columns: 1fr; /* Deixa apenas 1 item por linha no mobile */
+  }
+
+  .grid .item img {
+    width: 100%;
+    height: auto;
+  }
+}
   .bubbles {
     position: fixed;
     top: 0;

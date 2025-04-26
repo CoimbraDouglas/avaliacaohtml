@@ -17,7 +17,7 @@ Uma seção (<section>) de boas-vindas com título principal (<h1>) e descriçã
 Uma lista de informações destacadas (use <ul> ou <ol>).
 Um rodapé (<footer>) com informações de contato.
 As páginas adicionais (Sobre e Contato) devem conter:
-Títulos semânticos (<h2>, <h3>, etc.).
+Títulos semânticos.
 Formatação de texto usando parágrafos e listas.
 Pontuação: Estrutura completa e uso correto de tags.
 

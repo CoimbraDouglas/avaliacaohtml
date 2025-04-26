@@ -12,10 +12,10 @@ Salve o projeto e envie os arquivos para correção (HTML, CSS e imagens, se nec
 Parte 1: Estrutura HTML
 Crie um arquivo HTML principal.
 A página inicial deve conter:
-Um cabeçalho (<header>) com logo e menu de navegação.
-Uma seção (<section>) de boas-vindas com título principal (<h1>) e descrição (<p>).
-Uma lista de informações destacadas (use <ul> ou <ol>).
-Um rodapé (<footer>) com informações de contato.
+Um cabeçalho () com logo e menu de navegação.
+Uma seção () de boas-vindas com título principal () e descrição (p).
+Uma lista de informações destacadas (use ul ou ol).
+Um rodapé (footer) com informações de contato.
 As páginas adicionais (Sobre e Contato) devem conter:
 Títulos semânticos.
 Formatação de texto usando parágrafos e listas.

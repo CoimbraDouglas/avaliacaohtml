@@ -1,0 +1,227 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  h2, h3, p {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  header .logo i {
+    margin-right: 0.5rem;
+    color: #f02727;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a i {
+    margin-right: 0.3rem;
+  }
+  
+  header nav ul li a:hover {
+    color: #f72e2e;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .welcome {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .features ul {
+    list-style: disc;
+    padding-left: 2rem;
+  }
+  
+  footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  footer p i {
+    margin-right: 0.3rem;
+    color: #f31212;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+  
+  .grid .item {
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .grid .item {
+    background: #1a1a1a; 
+    color: #f0f0f0; 
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #333; 
+    transition: all 0.3s ease; 
+  }
+  
+  .grid .item img {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: auto;
+    filter: grayscale(30%); 
+    transition: all 0.3s ease;
+  }
+  
+  
+  .grid .item:hover {
+    background: #2e2e2e; 
+    color: #ff2e63; 
+    transform: scale(1.08); 
+    border-color: #ff2e63;
+  }
+  
+  .grid .item:hover img {
+    filter: grayscale(0%) brightness(1.2); 
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background: #f31212;
+  }
+  
+  @media (max-width: 768px) {
+    header nav ul {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .welcome,
+    .features,
+    .about,
+    .contact {
+      text-align: center;
+    }
+  }
+  .bubbles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* para o usuário ainda poder clicar normalmente */
+    overflow: hidden;
+    z-index: 0; /* fica no fundo */
+  }
+  
+  .bubbles span {
+    position: absolute;
+    bottom: -50px;
+    width: 20px;
+    height: 20px;
+    background: rgba(199, 247, 160, 0.452);
+    border-radius: 70%;
+    animation: bubble 20s linear infinite;
+    left: calc(var(--i) * 10px);
+  }
+  
+  @keyframes bubble {
+    0% {
+      transform: translateY(0) scale(1);
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100vh) scale(0.5);
+      opacity: 0;
+    }
+  }
+  .shop {
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  
+  .shop-intro h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .shop-intro p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .shop-link .shop-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #ff5a5f;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-link .shop-button:hover {
+    background-color: #e0484d;
+  }
+  .darkside-button {
+    background-color: #131212;
+  }
+  
+  .darkside-button:hover {
+    background-color: #222222;
+  }
+    

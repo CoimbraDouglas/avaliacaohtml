@@ -84,7 +84,7 @@ Para acessar o site: https://coimbradouglas.github.io/avaliacaohtml/
 ![Preview do Site](resource/Cap001.png)
 
 2.Tela de consulta do site
-![Preview do Site](resource/Cap001.png)
+![Preview do Site](resource/Cap002.png)
 
 
 📚 Conclusão

@@ -79,7 +79,6 @@ Para acessar o site: https://coimbradouglas.github.io/avaliacaohtml/
 
 ## 📸 Demonstração
 
-Se houver uma imagem de prévia do projeto, você pode adicioná-la aqui:  
 
 1.Tela inicial do site
 ![Preview do Site](resource/Cap001.png)

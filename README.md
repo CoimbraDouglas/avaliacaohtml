@@ -8,7 +8,7 @@
 
 ## 🧾 Descrição do Projeto
 
-Este projeto foi desenvolvido como parte da avaliação da disciplina **Programação Web**, com o objetivo de aplicar os conceitos fundamentais de **HTML5** e **CSS3** na criação de um site completo, responsivo e estilizado.  
+Este projeto foi desenvolvido como parte da avaliação da disciplina **Programação Web**, com o objetivo de aplicar os conceitos fundamentais de *HTML5* e *CSS3* na criação de um site completo, responsivo e estilizado.  
 
 O tema que eu escolhi foi **“As Três Maiores Obras de Junji Ito”**, uma homenagem ao mestre do horror japonês.  
 O site apresenta informações sobre suas principais obras — *Uzumaki*, *Tomie* e *Gyo* — combinando estrutura semântica, design limpo e efeitos visuais sutis para melhorar a experiência do usuário.

@@ -14,6 +14,7 @@ O tema que eu escolhi foi **“As Três Maiores Obras de Junji Ito”**, uma hom
 O site apresenta informações sobre suas principais obras — *Uzumaki*, *Tomie* e *Gyo* — combinando estrutura semântica, design limpo e efeitos visuais sutis para melhorar a experiência do usuário.
 
 Para acessar o site: https://coimbradouglas.github.io/avaliacaohtml/
+
 ---
 
 ## 🖥️ Estrutura do Projeto
@@ -80,17 +81,23 @@ Para acessar o site: https://coimbradouglas.github.io/avaliacaohtml/
 ## 📸 Demonstração
 
 
-1.Tela inicial do site
+#### 1.Tela inicial do site
 ![Preview do Site](resource/Cap001.png)
 
-2.Tela de consulta do site
+#### 2.Tela de consulta do site
 ![Preview do Site](resource/Cap002.png)
 
 
-📚 Conclusão
-Este projeto demonstra a integração entre estrutura, estilo e interatividade, pilares fundamentais do desenvolvimento web moderno.
-Através da criação de um site temático, foi possível consolidar conhecimentos de HTML, CSS, animações, responsividade e design visual.
+---
 
-✍️ Desenvolvido por Douglas Coimbra
+## 📚 Conclusão
+
+Este projeto demonstra a integração entre estrutura, estilo e interatividade, pilares fundamentais do desenvolvimento web moderno.
+Através da criação de um site temático, foi possível consolidar conhecimentos de *HTML*, **CSS**, animações, **responsividade** e design visual.
+
+---
+
+## ✍️ Desenvolvido por Douglas Coimbra
+
 🎓 Centro Universitário Newton Paiva — 2025
 
